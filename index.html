@@ -12,17 +12,42 @@
         <input class="input" id="input" type="text">
 
         <div class="btn-calc">
-            <button class="btn" onclick="clic(value)" value="1" >1</button>
-            <button class="btn" onclick="clic(value)" value="2" >2</button>
-            <button class="btn" onclick="clic(value)" value="3" >3</button>
-            <button class="btn" onclick="clic(value)" value="4" >4</button>
-            <button class="btn" onclick="clic(value)" value="5" >5</button>
-            <button class="btn" onclick="clic(value)" value="6" >6</button>
-            <button class="btn" onclick="clic(value)" value="7" >7</button>
-            <button class="btn" onclick="clic(value)" value="8" >8</button>
-            <button class="btn" onclick="clic(value)" value="9" >9</button>
-            <button class="btn" onclick="clic(value)" value="0" >0</button>
-            <button class="btn" onclick="delete_one(value)" value="delete">♠</button>
+
+            <div class="row">
+                <button class="btn" onclick="clic(value)" value="1" >1</button>
+                <button class="btn" onclick="clic(value)" value="2" >2</button>
+                <button class="btn" onclick="clic(value)" value="3" >3</button>
+                <button class="btn" onclick="clic(value)" value="+" >+</button>
+            </div>
+
+            <div class="row">
+                <button class="btn" onclick="clic(value)" value="4" >4</button>
+                <button class="btn" onclick="clic(value)" value="5" >5</button>
+                <button class="btn" onclick="clic(value)" value="6" >6</button>
+                <button class="btn" onclick="clic(value)" value="-" >-</button>
+            </div>
+            
+            <div class="row">
+                <button class="btn" onclick="clic(value)" value="7" >7</button>
+                <button class="btn" onclick="clic(value)" value="8" >8</button>
+                <button class="btn" onclick="clic(value)" value="9" >9</button>
+                <button class="btn" onclick="clic(value)" value="*" >x</button>
+            </div>
+
+            <div class="row">
+                <button class="btn" onclick="del()" value="AC">del</button>
+                <button class="btn" onclick="clic(value)" value="0" >0</button>
+                <button class="btn" onclick="calc()" value="=">=</button>
+                <button class="btn" onclick="clic(value)" value="/" >/</button>
+            </div> 
+            
+            <div class="row">                
+                <button class="btn" onclick="del_one()" value="DEL" >one</button>
+                <button class="btn" onclick="clic(value)" value="(" >(</button>
+                <button class="btn" onclick="clic(value)" value=")" >)</button>
+                <button class="btn" onclick="clic(value)" value="%" >%</button>
+            </div>
+
         </div>
     </div>
 </body>

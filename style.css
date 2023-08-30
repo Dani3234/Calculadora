@@ -2,3 +2,37 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background: rgb(20, 29, 46);
+
+}
+
+.calc {
+    background: rgb(183, 192, 208);
+    height: 300px;
+    width: 300px;
+}
+
+.input {
+    height: 20px;
+    width: 210px;
+}
+
+.btn-calc {
+    display: flex;
+    height: 200px;
+    width: 220px;
+    flex-direction: column;
+}
+
+.row {
+    background: rgb(20, 29, 46);
+}
+
+.btn {
+    background: greenyellow;
+    position: relative;
+    height: 50px;
+    width: 50px;
+}

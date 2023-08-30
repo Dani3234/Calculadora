@@ -1,10 +1,21 @@
 function clic(val) {
-    const num = document.getElementById("input");
-    num.value += val;
+    const input = document.getElementById("input");
+    input.value += val;
 }
 
-function delete_one(val) {
-    const num2 = document.getElementById("input");
-    num2 = num2.pop;
-    console.log(num2)
+function calc() {
+    const input = document.getElementById("input");
+    const result = eval(input.value);
+    
+    input.value = result; 
+}
+
+function del() {
+    const input = document.getElementById("input");
+    input.value = ""
+}
+
+function del_one() {
+    const input = document.getElementById("input")
+    input.value = input.value.slice(0, -1);
 }
